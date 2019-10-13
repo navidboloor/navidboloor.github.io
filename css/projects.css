@@ -1,0 +1,78 @@
+h1
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Arial Black";
+	color: #ef986c;
+	font-size: 40px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ef986c;
+}
+
+.orange-text
+{
+	color: #ef986c;
+}
+
+#writing
+{
+	float: right;
+	width: 770px;
+	font-family: "aileron";
+	margin: 0 auto;
+}
+
+#writing p
+{
+	margin-top: -3px;
+	color: #343434;
+	margin-left: 2px;
+	font-size: 20px;
+}
+
+#ufo-abduction
+{
+	position: absolute;
+	width: 200px;
+	margin-top: -200px;
+}
+
+#ufo
+{
+	position: absolute;
+	z-index: 1;
+}
+
+#cow
+{
+	position: absolute;
+	z-index: 2;
+	margin-left: 80px;
+	margin-top: 225px;
+	animation: cow-abduction 6s ease-in-out infinite;
+}
+
+@keyframes cow-abduction
+{
+	0% 
+	{
+		transform: translatey(0px)
+				   rotate(30deg);
+	}
+	
+	50% 
+	{
+		transform: translatey(-65px)
+				   rotate(70deg);
+	}
+	
+	100% 
+	{
+		transform: translatey(0px)
+				   rotate(30deg);
+	}
+}

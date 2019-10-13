@@ -1,0 +1,70 @@
+.left
+{
+	float: left;
+	width: calc(50% - 55px);
+	position: absolute;
+	height: 50px;
+}
+
+.left a
+{
+	float: right;
+}
+
+.right
+{
+	float: right;
+	width: calc(50% - 55px);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50px;
+}
+
+.right a
+{
+	float: left;
+}
+
+.float-break
+{
+	float: clear;
+}
+
+#navbar
+{
+	width: 100%;
+	background-color: #343434;
+	height: 50px;
+	position: fixed;
+}
+
+#navbar a
+{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-right: 10px;
+	text-decoration: none;
+	font-family: "aileron";
+	font-weight: lighter;
+	color: #ef986c;
+}
+
+#logo-holder
+{
+	position: relative;
+	height: 110px;
+	width: 110px;
+	border-radius: 55px;
+	background-color: #343434;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#selected-planet
+{
+	position: relative;
+	width: 100px;
+}

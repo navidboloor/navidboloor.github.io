@@ -1,0 +1,75 @@
+h1
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Arial Black";
+	color: #ef986c;
+	font-size: 55px;
+}
+
+.orange-text
+{
+	color: #ef986c;
+}
+
+#about-pic
+{
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;	
+	background: url("../assets/about-pic.png");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+#writing
+{
+	width: 770px;
+	font-family: "aileron";
+	margin-left: 78px;
+}
+
+#writing p
+{
+	margin-top: -3px;
+	color: #343434;
+	margin-left: 2px;
+	font-size: 20px;
+}
+
+#compass
+{
+	position: absolute;
+	width: 200px;
+	margin-top: -200px;
+}
+
+#compass-bkg
+{
+	position: absolute;
+	z-index: 1;
+}
+
+#compass-arrow
+{
+	position: absolute;
+	z-index: 2;
+	margin-left: 90px;
+	margin-top: 92px;
+	animation: arrow-spin 5s infinite linear;
+}
+
+
+@keyframes arrow-spin
+{
+	from
+	{
+		transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+}

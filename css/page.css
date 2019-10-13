@@ -1,0 +1,25 @@
+#wrapper
+{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 115px;
+}
+
+#left-highlight
+{
+	position: fixed;
+	margin-top: 50px;
+	height: calc(100vh - 50px);
+	background-color: #d3d3d3;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#left-highlight h1
+{
+	position: absolute;
+	top: 0;
+	color: #343434;
+}

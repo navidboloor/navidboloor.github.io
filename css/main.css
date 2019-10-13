@@ -1,0 +1,16 @@
+@font-face
+{
+  font-family: "aileron";
+  src: url("../assets/fonts/Aileron-Regular.otf");
+}
+
+html
+{
+	overflow-x: hidden;
+}
+
+body
+{
+	margin: 0px;
+	overflow-x: hidden;
+}

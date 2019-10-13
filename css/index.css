@@ -1,0 +1,113 @@
+body
+{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.planets
+{
+	width: 1000px;
+	height: 100vh;
+	position: 0 auto;
+	position: absolute;
+}
+
+.planet
+{
+	z-index: 5;
+	transition: all .2s ease-in-out;
+}
+
+.planet:hover
+{
+	transform: scale(1.5)
+}
+
+.red-planet
+{
+	position: relative;
+	margin-left: 400px;
+	width: 100px;
+	margin-top: 50px;
+	transform: rotate(-50deg);
+}
+
+
+.blue-planet
+{
+	position: relative;
+	margin-left: 900px;
+	transform: rotate(20deg);
+	width: 165px;
+}
+
+
+.green-planet
+{
+	position: relative;
+	margin-left: 150px;
+	width: 150px;
+	transform: rotate(40deg);
+}
+
+
+.purple-planet
+{
+	position: relative;
+	margin-left: 100px;
+	width: 70px;
+	transform: rotate(-25deg);
+}
+
+.earth-planet
+{
+	position: relative;
+	margin-left: 700px;
+	width: 90px;
+	transform: rotate(38deg);
+}
+
+#first-page
+{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../assets/space-bkg.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#spaceship
+{
+	position: absolute;
+	animation: circle 10s infinite linear;
+	z-index: 6;
+}
+
+#planets
+{
+	position: absolute;
+	right: 0;
+}
+
+#space-segment
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+@keyframes circle 
+{
+	from 
+	{
+		transform: rotate(0deg)
+		           translate(-200px);
+	}
+	to 
+	{
+		transform: rotate(360deg)
+		           translate(-200px);
+	}
+}
